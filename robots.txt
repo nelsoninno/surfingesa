@@ -1,0 +1,9 @@
+# robots.txt for surfingesa.com
+# Every page is open and indexable, including AI search and user-fetch agents.
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# AI guide: https://surfingesa.com/llms.txt
+Sitemap: https://surfingesa.com/sitemap.xml

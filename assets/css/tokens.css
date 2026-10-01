@@ -1,0 +1,70 @@
+/* assets/css/tokens.css
+   COLORS + FONTS ONLY. The single source of truth for the Surfing ESA look.
+   Edit this one file to re-skin the whole site (EN + ES stay in sync). */
+:root{
+  /* Brand palette (sampled from the Figma design) */
+  --navy-900:  #082539;   /* header, "For Business", footer */
+  --navy-800:  #0B3350;   /* headings, stats band, popular card, contact */
+  --blue-700:  #144B72;   /* About card, merch panels, big statement text */
+  --yellow:    #F5B93E;   /* buttons, prices, numbers */
+  --mustard:   #E0A42A;   /* section pills, eyebrow labels, founder name */
+  --swoosh:    #FECF40;   /* decorative yellow swoosh */
+  --cream:     #EDE9E2;   /* warm section background */
+  --cream-2:   #FAF5EB;   /* merch light panels */
+  --white:     #FFFFFF;
+  --whatsapp:  #25D366;
+
+  /* Text */
+  --ink:        #0B3350;  /* main dark text */
+  --text:       #5F686E;  /* body paragraphs on light */
+  --text-soft:  #969EA3;  /* FAQ answers, rental descriptions */
+  --text-mute:  #8A9096;  /* small captions on cards */
+  --num-grey:   #505860;  /* pricing card numbers */
+  --line:       #E3E6E9;  /* hairlines and borders on white */
+  --line-warm:  #EEEBE4;  /* dividers between service cards */
+  --chip:       #EEF1F4;  /* "Precios especiales" chip */
+  --avatar:     #DBE1E5;
+
+  /* On dark */
+  --on-dark:       #FFFFFF;
+  --on-dark-soft:  #B5C1CC;
+  --on-dark-mute:  #8094A4;
+
+
+  /* Fine-tuned UI tones (sampled from the Figma) */
+  --flag-blue: #1F4CB0;
+  --text-strong: #4B5358;
+  --quote-text: #6C747C;
+  --footer-legal: #7E8E9C;
+  --placeholder: #8E959A;
+  --placeholder-dark: #9AA9B7;
+  --featured-meta: #9BAAB8;
+  --stats-label: #9FB0C0;
+  --featured-num: #A9B7C4;
+  --row-num: #B4C0C8;
+  --arrow: #B8C0C7;
+  --featured-list: #C5D0DA;
+  --input-line-dark: #C9D3DD;
+  --input-line: #D6DADD;
+  --faq-border: #DCDFE3;
+  --hero-eyebrow: #E4ECF1;
+  --donate-text: #E8EEF2;
+  --about-card-text: #EAF0F5;
+
+  --donate-shade: linear-gradient(90deg,rgba(6,34,52,.82),rgba(6,40,58,.68) 50%,rgba(6,34,52,.84));
+
+  /* Footer credit colors (read by the EKY credit logo) */
+  --footer-bg: var(--navy-900);
+  --footer-fg: #9DABB8;
+
+  /* Fonts */
+  --font-display: 'Bebas Neue', 'Oswald', Impact, 'Arial Narrow', sans-serif;
+  --font-body:    'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --max: 1240px;
+  --gutter: clamp(20px, 6.95vw, 100px);
+  --header-h: 116px;
+  --radius-lg: 24px;
+  --radius-md: 20px;
+}
