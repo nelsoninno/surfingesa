@@ -6,9 +6,9 @@
   --navy-900:  #082539;   /* header, "For Business", footer */
   --navy-800:  #0B3350;   /* headings, stats band, popular card, contact */
   --blue-700:  #144B72;   /* About card, merch panels, big statement text */
-  --yellow:    #F5B93E;   /* buttons, prices, numbers */
-  --mustard:   #E0A42A;   /* section pills, eyebrow labels, founder name */
-  --swoosh:    #FECF40;   /* decorative yellow swoosh */
+  --yellow:    #FFCF3E;   /* THE one brand yellow (Joss's brand guide): buttons, pills, prices, numbers, swooshes.
+                             Rule: yellow is for fills, graphics and text on dark backgrounds only.
+                             Text on light backgrounds uses navy/blue (no yellow is readable on cream). */
   --cream:     #EDE9E2;   /* warm section background */
   --cream-2:   #FAF5EB;   /* merch light panels */
   --white:     #FFFFFF;
